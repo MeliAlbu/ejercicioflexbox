@@ -1,0 +1,24 @@
+body {
+/*background-color: red;
+*/
+  font-size:16px;
+}
+.parrafo {
+  color: lime;
+  font-size: 2rem;
+}
+@media (max-width: 800px) {
+ body {
+   background-color: blue;
+ }
+ .parrafo {
+   color: pink;
+   font-size: 2rem;
+ }
+}
+
+@media (max-width: 425px) {
+ body {
+   background-color: olive;
+ }
+}
