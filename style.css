@@ -34,8 +34,14 @@ color: black;
   flex-direction: row-reverse;
 }
 
- .parrafo {
+ .parrafos {
+   display: flex;
+   flex-direction:row;
+   justify-content: space-around;
    color: pink;
-   font-size: 2rem;
+   text-align: justify;
+   padding: 10px;
+   border: pink;
+   background-color: white;
  }
 
