@@ -1,0 +1,47 @@
+body {
+/*background-color: red;
+*/
+  font-size:16px;
+}
+
+@media (max-width: 800px) {
+ body {
+   background-color: blue;
+ }
+
+}
+
+@media (max-width: 425px) {
+ body {
+   background-color: olive;
+ }
+}
+
+.header {
+border: 5px solid;
+color: black;
+}
+
+.section1 {
+  border: 5px solid;
+  color: black;
+  float: left;
+  width: 20%
+}
+
+.articulo1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+ .parrafos {
+   display: flex;
+   flex-direction:row;
+   justify-content: space-around;
+   color: pink;
+   text-align: justify;
+   padding: 10px;
+   border: pink;
+   background-color: white;
+ }
+
